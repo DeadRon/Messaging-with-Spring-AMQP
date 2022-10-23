@@ -8,3 +8,11 @@ services:
       MYSQL_DATABASE: "orders"
     ports:
       - "3307:3307"
+  rabbitmq:
+    image: rabbitmq:3.7.8-management
+    ports:
+      - 5672:5672
+      - 15672:15672
+    environment:
+      - RABBIT_DEFAULT_USER=rabbitmq
+      - RABBIT_DEFAULT_PASSWORD=rabbitmq
