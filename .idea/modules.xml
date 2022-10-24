@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Messaging-with-Spring-AMQP.iml" filepath="$PROJECT_DIR$/Messaging-with-Spring-AMQP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cashback-service/cashback.service.iml" filepath="$PROJECT_DIR$/cashback-service/cashback.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/order-service/order.service.iml" filepath="$PROJECT_DIR$/order-service/order.service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notification-service/order.service (1) (br.com.notification).iml" filepath="$PROJECT_DIR$/notification-service/order.service (1) (br.com.notification).iml" />
     </modules>
   </component>
 </project>
